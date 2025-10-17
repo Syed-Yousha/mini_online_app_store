@@ -1,0 +1,31 @@
+name: mini_app_store
+description: A mini online store app with favorites and product details.
+publish_to: "none" # since this is a local project
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # UI & animations
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add assets if needed later
+  # assets:
+  #   - assets/images/
+  #   - assets/data/
